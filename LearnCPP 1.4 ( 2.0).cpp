@@ -22,7 +22,8 @@ int main()
 {
 	int x{ 7 };// computer found a RAM box, labelled it x AND put the value 7 in it in ONE step
 	int y{ 8 };
-	std::cout << x<< "\n" << y;
+	int z {9}; 
+	std::cout << x<< "\n" << y << std::endl<< z;
 	return 0;
 }
 // voila! we have printed 7!
@@ -33,3 +34,4 @@ int main()
 // it does its own math, by putting '/n' we made a multicharacter literal, / has the ASCII value 47 which is multiplied by 256 then n has value 110, so after adding we get 12148
 // now lets see what happens when we put /n in double quotes...we get 7/n8..why? bcuz we made a string literal so basically it prints exactly whatever is in quotes (like hello world)
 // lets put \n in double quotes...we still get a newline. '' is CHARACTER LITERAL whereas "" is STRING LITERAL
+// we can also use std::endl for newline
