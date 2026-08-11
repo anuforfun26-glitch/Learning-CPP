@@ -8,3 +8,7 @@ I am building a foundational headstart in C++ using LearnCPP and a whole lot of 
 #Process
 I study a topic on LearnCPP then practice it in Visual Studio, I also add comments alongside my programming to both teach myself and create digital notes
 Finally, I do assignment, practice problems, after milestones.
+
+# Milestone Markers for chapters:-
+Chp 1 :- Double Up Calculator and Basic Arithmetic
+         
